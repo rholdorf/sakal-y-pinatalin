@@ -79,6 +79,20 @@ python3 nome.py lua sol
 
 A primeira imprime `parul`. A segunda imprime `sul-y-lutan`: dois nomes soldados com `y`, o de menos sílabas primeiro.
 
+### Numerologia
+
+`numerologia.md` acrescenta uma camada opcional: cada forma tem um número pela numerologia pitagórica, com redução a 1–9 e os mestres 11, 22 e 33 preservados. O pedido pode mirar um desses significados. A gramática vence o número: o alvo só escolhe entre o que o pedido deixou em aberto (a semente do nome, o alvo calado da frase, a fonte de um endosso sem fonte), numa ordem fixa, e nunca inventa compromisso. Quando não há acerto possível, a resposta avisa.
+
+```bash
+python3 numero.py sakal-y-pinatalin
+python3 numero.py --alvo 7 --sementes farol
+python3 numero.py --alvo 9 --miolo "ku nil ti mil" --modos ka,la,na --alvos pu
+```
+
+A primeira detalha cada domínio e dá os três eixos: expressão 57 → 12 → 3, alma 11, personalidade 1. A segunda afina a semente até `farol3`, que dá `parulas`. A terceira fixa o alvo `pu`, endossa sem fonte e deixa o número escolher a fonte: `pu ku nil ti mil la`. Esta camada foi revisada com o Grok; o registro está no fim de `conversa.md`.
+
+Na skill, basta pedir: "um nome a partir de farol, com número 7".
+
 ## O que a língua marca
 
 Toda frase diz a quem se fala e quanto quem fala assina o que diz. Não marca tempo, gênero nem plural. Há 81 raízes. Conceito novo é composto dessas raízes, pelo procedimento da seção 3. Nome próprio é a única invenção livre, e sai da semente pelo algoritmo da seção 5.
