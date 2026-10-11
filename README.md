@@ -18,8 +18,8 @@ A skill precisa continuar dentro deste repositório. Ela lê `sakal-y-pinatalin.
 Clone e abra o Grok na raiz:
 
 ```bash
-git clone <url-deste-repositório>
-cd <diretório>
+git clone https://github.com/rholdorf/sakal-y-pinatalin.git
+cd sakal-y-pinatalin
 grok
 ```
 
